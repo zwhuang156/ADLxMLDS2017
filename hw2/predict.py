@@ -51,7 +51,7 @@ def get_loss(mask_value):
 
 if __name__ == '__main__':
 
-    model_path = "model/model_y_begin.h5"
+    model_path = "model_y_begin.h5"
     test_data_path = os.path.join(sys.argv[1], "testing_data/feat")
     train_label_path = os.path.join(sys.argv[1], "training_label.json")
     ans_path = sys.argv[2]
